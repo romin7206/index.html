@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
+@media(max-width: 990px) {
+  nav {
+    display: none;}
+  #logo {
+    width: 100%;
+    padding: 0;
+    height: 70px;
+    line-height: 70px;}
+  #logo h2 {
+    text-align: center;}
+  }
+  :lang(ko) {
+    word-break: keep-all;
+  }
+h2{
+  font-size: 60px;}
+a{color:black;
+  text-decoration: none;}
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  @media(min-width: 990px) {
+    #logo {
+      float: left;
+      width: 200px;
+      height: 70px;
+      padding-left: 40px;
+      line-height: 70px;}
+    #logo h2:hover {
+      text-shadow: 200px 0px 1px #969696;
+      transition: 2s ease;}
+  }
+  #logo h2 {
+    font-size: 45px;}
+  #logo > h2 > a {
+    color: white;}
+  nav {
+    float: right;
+    width: 750px;
+    height: 70px;}
+  #topMenu {
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 0;}
+  #topMenu > li {
+    float: left;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    font-weight: 600;
+    line-height: 50px;}
+  #topMenu > li > a {
+    color: white;
+    padding: 13px 40px;}
+  #topMenu a:hover {
+    color: black;
+    background-color: white;}
+    .start_message {
+      width: 100%;
+      background-color: rgba(87, 86, 86, 0.658);
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      padding: 11.5px 0 11.5px 0;
+      margin-top: 70px;}
