@@ -50,7 +50,7 @@ a{color:black;
   #topMenu {
     height: 50px;
     padding-top: 20px;
-    padding-left: 0;}
+    padding-left: 200px;}
   #topMenu > li {
     float: left;
     font-size: 18px;
@@ -72,3 +72,5 @@ a{color:black;
       text-align: center;
       padding: 11.5px 0 11.5px 0;
       margin-top: 70px;}
+      #disqus_thread {
+        padding: 10px;}
